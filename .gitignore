@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# VS Code and PyCharm settings
+.vscode/
+.idea/
+
+# Python egg metadata
+*.egg-info/
+
+# Test and coverage folders
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment files
+.env
