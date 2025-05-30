@@ -11,7 +11,7 @@ import json
 
 
 load_dotenv()
-api_key = os.getenv('API_KEY')
+api_key = st.secrets["API_KEY"]
 
 current_date = datetime.now().strftime("%Y-%m-%d")
 
